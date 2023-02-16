@@ -231,7 +231,10 @@ APIs:
             }
 
 2) Update user infection probability
-    description: update user infection probability api calculate the infection probabity for the user with specified id using a machine learning model at backend and call the update user api, from the app application internally to update the infection probability of same user in the app application using rabbitMQ. For detailed description about about machine learning model and the concept please check my "Covid-Solution" project, I had made 2 years back at the link https://github.com/Rupesh-Pro/covid_solution.
+    description: update user infection probability api calculate the infection probabity for the user with specified id using a machine
+    learning model at backend and call the update user api, from the app application internally to update the infection probability of 
+    same user in the app application using rabbitMQ. For detailed description about about machine learning model and the concept please
+    check my "Covid-Solution" project, I had made 2 years back at the link https://github.com/Rupesh-Pro/covid_solution.
     endpoint: http://127.0.0.1:8001/app2/user/update-user-infection-probability/31/
     payload format: None
     payload example: None
